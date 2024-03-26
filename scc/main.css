@@ -1,0 +1,376 @@
+body {
+    margin: 0;
+}
+
+.bg-img {
+    background-image: url("/assets/HomePage.png");
+    height: 1100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+.container {
+    position: absolute;
+    margin-top: 40px;
+    width: auto;
+    margin-left: 100px;
+}
+  
+.topnav {
+    overflow: hidden;
+    background-color: #ffffffa8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    width: 1800px;
+    border-radius: 40px;
+}
+  
+.topnav a {
+    color: rgb(74, 74, 74);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: sans-serif; 
+    font-weight: bold;
+}
+
+.topnav .middle a.active {
+    color: #E51728;
+}
+
+.topnav .left {
+    flex: 1;
+}
+
+.topnav .middle {
+    flex: 3;
+    display: flex;
+    justify-content: center;
+}
+
+.topnav .right {
+    flex: 1;
+}
+
+.topnav a:hover {
+    color: #E51728;
+}
+
+.topnav .left img {
+    width: 350px; 
+    height: auto; 
+}
+
+.search-form {
+    position: relative;
+    display: inline-block;
+}
+
+.search-form input[type="text"] {
+    padding: 8px 30px 8px 8px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px; 
+    outline: none;
+}
+
+.search-form i {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #333;
+    cursor: pointer;
+}
+
+.red-heading {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 100px;
+    color: #E51728;
+    font-size: 60px;
+    margin-bottom: 35px; 
+    font-family: 'Porter Sans Block', sans-serif;
+}
+
+.frame .div {
+    background-color: #4d0575;
+    width: 100%;
+    height: 65em;
+    position: relative;
+}
+
+.heading {
+    position: absolute;
+    width: 900px;
+    top: 230px;
+    left: 1100px;
+    font-family: "Porter sans", Helvetica;
+    color: #ffffff;
+    font-size: 60px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.images {
+    width: 800px;
+    height: 800px;
+    top: 8em;
+    left: 10em;
+    position: absolute;
+}
+
+.paragraph {
+    position: absolute;
+    width: 600px;
+    top: 400px;
+    left: 1100px;
+    font-family: "Porter sans", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: 1.7;
+}
+
+.button {
+    margin-left: 1100px;
+    margin-top: 730px;
+    cursor: pointer;
+    height: 99px;
+    width: 300px;
+    border: none;
+    background-color: #E51728;
+    color:#ffffff ;
+    padding: 10px;
+    font-size: 30px;
+    border-radius:10px ;
+}
+
+.frame2 .div2 {
+    background-color: #ffffff;
+    width: 100%;
+    height: 55em;
+    position: relative;
+}
+
+.images2 {
+    width: 700px;
+    height: 600px;
+    top: 8em;
+    left: 70em;
+    position: absolute;
+}
+
+.heading2 {
+    position: absolute;
+    width: 600px;
+    top: 230px;
+    left: 200px;
+    font-family: "Porter sans", Helvetica;
+    font-weight: 790;
+    color: #000000;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.paragraph2 {
+    position: absolute;
+    width: 550px;
+    top: 400px;
+    left: 200px;
+    font-family: "Porter sans", Helvetica;
+    font-weight: 400;
+    color: #545454;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+    line-height: 1.7;
+}
+
+.frame3 .div3 {
+    background-color: #4d0575;
+    width: 100%;
+    height: 90em;
+    position: relative;
+}
+
+.images3 {
+    width: 70px;
+    height: 60px;
+    top: 800px;
+    left: 70em;
+    position: absolute;
+}
+
+.heading3 {
+    position: absolute;
+    width: 800px;
+    top: 70px;
+    left: 780px;
+    font-family: 'Porter sans ', Helvetica;
+    font-weight: 790;
+    color: #ffffff;
+    font-size: 55px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.headingtjie{
+    position: absolute;
+    width: 800px;
+    top: 70px;
+    left: 160px;
+    font-family: 'Porter sans ', Helvetica;
+    font-weight: 790;
+    color: #ffffff;
+    font-size: 55px;
+    letter-spacing: 0;
+    line-height: 1.7;
+}
+
+.paragraph3 {
+    position: absolute;
+    width: 550px;
+    top: 400px;
+    left: 200px;
+    font-family: "Porter sans", Helvetica;
+    font-weight: 300;
+    color: #545454;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+    line-height: 1.7;
+}
+
+.button3 {
+    margin-left: 1000px;
+    margin-top:1260px;
+    cursor: pointer;
+    height: 100px;
+    width: 320px;
+    border: none;
+    background-color: #E51728;
+    color:#ffffff ;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 15px;
+    font-weight: 700;
+}
+
+.frame4 .div4 {
+    background-color: #ffffff;
+    width: 100%;
+    height: 25em;
+    position: relative;
+}
+
+.images4 {
+    width: 380px;
+    height: 70px;
+    top: 90px;
+    left: 200px;
+    position: absolute;
+}
+
+.heading4 {
+    position: absolute;
+    width: 350px;
+    top: 180px;
+    left: 200px;
+    font-family: 'Porter sans', Helvetica;
+    font-weight: 500;
+    color: #7A7A7A;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: 1.7;
+}
+
+.paragraph4 {
+    position: absolute;
+    width: 550px;
+    top: 400px;
+    left: 200px;
+    font-family: "Porter sans", Helvetica;
+    font-weight: 300;
+    color: #545454;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+    line-height: 1.7;
+}
+
+.co{
+    position: absolute;
+    width: 300px;
+    top: 72px;
+    left: 870px;
+    font-family: 'Porter sans', Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+    
+}
+
+.under{
+    position: absolute;
+    width: 300px;
+    top: 170px;
+    left: 870px;
+    font-family: 'Porter sans', Helvetica;
+    font-weight: 500;
+    color: #7A7A7A;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+    line-height: 2;
+}
+
+.social{
+    position: absolute;
+    width: 300px;
+    top: 72px;
+    left: 1220px;
+    font-family: 'Porter sans', Helvetica;
+    font-weight: 540;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+p{
+    font-size: 20px;
+    color: #09c8d2;
+}
+
+.upcoming {
+    font-size: 22px;
+    color: #09c8d2;
+    font-weight: 400;
+    margin-left: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+hr{
+    width: 50%;
+}
+
