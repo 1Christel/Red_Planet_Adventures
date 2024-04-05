@@ -8,6 +8,16 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
 }
+
+.overImage{
+    color: #ffffff;
+    font-size: 50px;
+    font-family: 'Porter Sans Block', sans-serif;
+    margin-top: 90px;
+    margin-left: 400px;
+    text-align: center;
+}
+
 .container {
     position: absolute;
     margin-top: 50px;
