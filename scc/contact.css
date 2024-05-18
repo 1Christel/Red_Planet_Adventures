@@ -31,7 +31,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 20px 40px;
-    width: 130%;
+    width: 125%;
     border-radius: 40px;
 }
   
@@ -374,4 +374,12 @@ hr{
     margin-left: 150px;
     width: 300px;
     
+}
+
+.error .error-message {
+    color: red;
+    font-size: 0.8em;
+}
+.success {
+    border-color: green;
 }

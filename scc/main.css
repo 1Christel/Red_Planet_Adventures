@@ -22,7 +22,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 20px 40px;
-    width: 130%;
+    width: 128%;
     border-radius: 40px;
 }
   
@@ -130,6 +130,12 @@ body {
     object-fit: cover;
     overflow: hidden;
     border-radius: 20px;
+}
+
+.middleRight{
+    position:absolute;
+    bottom: 5px;
+    right: 6px;
 }
 
 .sneakPeak{
