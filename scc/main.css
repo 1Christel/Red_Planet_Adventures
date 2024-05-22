@@ -359,23 +359,36 @@ hr{
     width: 480px;
 }
   
-.flexitem2{
+.flexitem2 {
     margin-top: 80px;
     font-family: 'Poppins';
     margin-right: 50px;
     flex: 50%;
-    
-}
-
-.flexitem2 img{
     position: relative;
-   margin-left: 100px;
 }
 
-.overlay{
-    position: absolute;
-    opacity: 2;
+.flexitem2 img {
+    margin-left: 100px;
 }
+
+.middleRight {
+    position: absolute;
+    top: 50%; 
+    right: 0; 
+    transform: translateY(-50%); 
+}
+
+.middleLeft {
+    position: absolute;
+    top: 50%; 
+    left: 0; 
+    transform: translateY(-50%); 
+}
+
+.middleRight img, .middleLeft img {
+    height: 60px;
+}
+
 
 
 .about{
