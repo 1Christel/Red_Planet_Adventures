@@ -307,7 +307,7 @@ h2{
     position: absolute;
     font-size: 22px;
     font-family: 'Poppins';
-   padding-top: 15px;
+    padding-top: 15px;
 }
 
 .button2{
@@ -421,25 +421,29 @@ h2{
 }
 
 .h1Footer{
+    position: absolute;
+    margin-top: 130px;
     font-size: 19px;
     font-family: 'Poppins';
     margin-left: 900px;
 }
 
 .h2Footer{
+    position: absolute;
+    margin-top: 130px;
     font-size: 19px;
     font-family: 'Poppins';
     margin-left: 600px;
 }
 
-.company{
+.two {
+    position: absolute;
+    margin-top: 190px;
     font-size: 17px;
     font-family: 'Poppins';
     font-weight: 400;
-    margin-top: 170px;
     margin-left: 600px;
     color: #535252;
-    line-height: 2;
     text-decoration: none;
 }
 

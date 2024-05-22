@@ -301,26 +301,30 @@ fieldset{
 }
 
 .h1Footer{
+    position: absolute;
+    margin-top: 150px;
     font-size: 19px;
     font-family: 'Poppins';
     margin-left: 900px;
 }
 
 .h2Footer{
+    position: absolute;
+    margin-top: 150px;
     font-size: 19px;
     font-family: 'Poppins';
     margin-left: 600px;
 }
 
-.company{
+.two {
+    position: absolute;
+    margin-top: 190px;
     font-size: 17px;
     font-family: 'Poppins';
     font-weight: 400;
-    margin-top: 170px;
     margin-left: 600px;
     color: #535252;
-    line-height: 2;
-
+    text-decoration: none;
 }
 
 hr{

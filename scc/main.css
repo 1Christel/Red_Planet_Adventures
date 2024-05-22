@@ -111,6 +111,7 @@ body {
     text-align: justify;
     justify-content: center;
     align-items: center;
+   
 }
 
 .frame {
@@ -132,11 +133,10 @@ body {
     border-radius: 20px;
 }
 
-.middleRight{
-    position:absolute;
-    bottom: 5px;
-    right: 6px;
-}
+
+
+
+
 
 .sneakPeak{
     font-size: 18px ;
@@ -257,7 +257,7 @@ body {
 
 .h1Footer{
     position: absolute;
-    margin-top: 70px;
+    margin-top: 100px;
     font-size: 19px;
     font-family: 'Poppins';
     margin-left: 900px;
@@ -265,22 +265,21 @@ body {
 
 .h2Footer{
     position: absolute;
-    margin-top: 70px;
+    margin-top: 100px;
     font-size: 19px;
     font-family: 'Poppins';
     margin-left: 600px;
 }
 
-.company{
+.two {
     position: absolute;
-    margin-top: 120px;
+    margin-top: 170px;
     font-size: 17px;
     font-family: 'Poppins';
     font-weight: 400;
-    margin-top: px;
     margin-left: 600px;
     color: #535252;
-    line-height: 2;
+    text-decoration: none;
 }
 
 .flexContainer4{
@@ -365,11 +364,19 @@ hr{
     font-family: 'Poppins';
     margin-right: 50px;
     flex: 50%;
+    
 }
 
 .flexitem2 img{
+    position: relative;
    margin-left: 100px;
 }
+
+.overlay{
+    position: absolute;
+    opacity: 2;
+}
+
 
 .about{
     margin-left: 810px;
@@ -464,3 +471,4 @@ h3{
     border-radius: 5%;
     height: 477px;
 }
+
